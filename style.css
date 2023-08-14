@@ -1,0 +1,38 @@
+body
+{
+    background-color: black;
+}
+
+h1
+{
+color:rgb(38, 0, 255);
+background-color: turquoise;
+font-style: oblique;
+}
+
+#show_sketch
+{
+    float:right;
+}
+
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from {box-shadow: 2px 2px 38px greenyellow};
+    to {box-shadow: 2px 2px 38px aquamarine};
+}
+
+p
+{
+    padding-top: 10px;
+    font-size:25px;
+
+}
